@@ -24,5 +24,10 @@ $(document).ready(function() {
 				$('#container ul li.current').next().find('a').trigger('click');
 			};
 		}
+		else if (e.keyCode == 27) {
+			if ($('body').hasClass('active')) {
+				$('.lightbox').trigger('click');
+			};
+		}		
 	});
 });
