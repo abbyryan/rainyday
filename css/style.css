@@ -62,7 +62,7 @@ footer {
 .lightbox img {
 	display: block;
 	max-width: 800px;
-	margin: 30px auto;
+	margin: 100px auto;
 	position: relative;
 	box-shadow:0 0 25px #111;
 	-webkit-box-shadow:0 0 25px #111;
