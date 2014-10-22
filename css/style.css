@@ -50,25 +50,25 @@ footer {
 **/
 
 .lightbox {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,.7);
-	text-align: center;
 }
-.lightbox p {
-	font-family: Helvetica, sans-serif;
-	font-size: 12px;
-	text-align: right;
-	margin-right: 20px;
-	color: #ccc;
-}
+
 .lightbox img {
-	max-width: 850px;
-	margin-bottom: 30px;
+	display: block;
+	max-width: 800px;
+	margin: 30px auto;
+	position: relative;
 	box-shadow:0 0 25px #111;
 	-webkit-box-shadow:0 0 25px #111;
 	-moz-box-shadow:0 0 25px #111;
+}
+
+body.active .lightbox {
+	display: block;
 }
